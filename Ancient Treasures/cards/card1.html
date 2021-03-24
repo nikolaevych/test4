@@ -1,0 +1,158 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Search</title>
+		<link rel="stylesheet" href="../css/style_card.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Arapey:ital@1&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="wraper">
+			<header class="header">
+				<div class="header__body">
+					<div class="menu_burger">
+						<span></span>
+					</div>
+					<div class="header__logo">
+						<a href="../index.html">
+							<img src="../img/logo.png" alt="logo">
+						</a>
+					</div>
+					<nav class="menu">
+						<ul class="menu__list">
+							<li class="menu__item menu__item1"><a href="#" class="menu__link">Vikings</a></li>
+							<li class="menu__item menu__item2"><a href="#" class="menu__link">Ancient Egypt</a></li>
+							<li class="menu__item menu__item3"><a href="#" class="menu__link">Celtics</a></li>
+							<li class="menu__item menu__item4"><a href="#" class="menu__link"><span>Sale</span></a></li>
+							<li class="menu__item menu__item_search" class="menu__link"><a href="../search.html"> <input type="text" placeholder="Type your search" class="menu__item_input"><img src="../img/search_img.png" alt="search"></a></li>
+						</ul>
+					</nav>
+					<div class="card" id="card">
+						<div class="card__body">
+							<div class="card__look">
+								<a href="#">
+									<img src="../img/card_img.png" alt="card">
+								</a>
+							</div>
+							<div class="card__item">
+								<div class="card__quantity">
+									<span class="quantity"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main>
+
+
+
+				<section class="card1">
+					<div class="container">
+						<div class="content">
+							<div class="slider">
+								<div class="slider-for">
+								<div class="slider__item"><img src="../img/1.png" alt=""></div>
+								<div class="slider__item"><img src="../img/02.svg" alt=""></div>
+								<div class="slider__item"><img src="../img/03.svg" alt=""></div>
+								</div>
+								<div class="slider-nav">
+								<div class="slider__item"><img src="../img/1.png" alt=""></div>
+								<div class="slider__item"><img src="../img/02.svg" alt=""></div>
+								<div class="slider__item"><img src="../img/03.svg" alt=""></div>
+								</div>
+							</div>
+							<div class="card1_body">
+								<div class="heading">
+									<h1>
+										Handmade Stainless Steel Kings Chain Viking Geri And Freki Mjolnir Necklace
+									</h1>
+								</div>
+								<div class="technical_part">
+									<div class="technical_part__preview">
+										<h2>Choose your length</h2>
+									</div>
+									<div class="technical_part__body">
+
+										<ul class="technical_part__body_list">
+											<li class="technical_part__body_item length_60">
+											   <input type="radio" name="length_60" id="length_60">
+											   <label for="length_60">60 CM (24 INCHES)</label>
+											</li>
+											<li class="technical_part__body_item length_50">
+												<input type="radio" name="length_50" id="length_50">
+												<label for="length_50">50 CM (20 INCHES)</label>
+											</li>
+											<li class="technical_part__body_item length_40">
+												<input type="radio" name="length_40" id="length_40">
+												<label for="length_40">40 CM (16 INCHES)</label>
+											</li>
+										</ul>
+										<div class="technical_part__body_arrow">
+											<img src="../img/arrow.png" alt="">
+										</div>
+									</div>
+									<div class="price">
+								
+										<h2>$19.95</h2> <span>Tax included</span>
+									</div>
+									<div class="btm__card1">
+										<input type="button" value="-" class="btm_primary_regular minus" onclick="m()">
+										<input type="text" value="" class="btm_primary_regular__value">
+										<input type="button" value="+" class="btm_primary_regular plus" onclick="p()">
+										<input type="button" value="Add To Cart" class="btm_primary-accent-red">
+									</div>
+								</div>
+								<div class="card1__preview">
+									<h2>Handmade Chain Geri and Freki Viking Necklace with Thor Hammer Mjolnir!</h2>
+									<p>				
+										The Kings chain was worn by Viking kings as a status symbol as the name applies. This is a 100% handmade Stainless Steel Chain. The crafting is a very time consuming process to put together the chain link by link.
+									</p>
+									<p>
+										The hand made chain connects together with a lobster clamp.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div> 	
+				</section>
+
+
+
+					<section class="card__popap">
+						<div class="card__popap_body">
+							<div class="card__popap_container">
+								<div class="card__popap_header">
+									<div class="card__popap_header__text">
+										Cart (<span class="quantity">2</span> items)
+									</div>
+									<div class="card__popap_header__close">
+										<span></span>
+									</div>
+								</div>
+								<div class="card__popap_content">
+							
+								</div>
+								<div class="card__popap_footer">
+									<div class="card__popap_footer__Subtotal">
+										<div class="card__popap_footer__text">Subtotal</div>
+										<div class="card__popap_footer__value">$<span class="total_value">144.95</span></div>
+									</div>
+									<div class="card__popap_footer__btm">
+										<input type="submit" value="View cart" class="footer__View_btm"><input type="submit" value="Proceed to checkout" class="footer__PrCh_btm">
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+			</main>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="../js/slick.min.js"></script>
+		<script src="../js/script.js"></script>
+		<script src="../js/search.js"></script>
+	</body>
+	</html>

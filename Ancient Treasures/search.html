@@ -1,0 +1,154 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Search</title>
+		<link rel="stylesheet" href="css/style_searh.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Arapey:ital@1&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="wraper">
+			<header class="header">
+				<div class="header__body">
+					<div class="menu_burger">
+						<span></span>
+					</div>
+					<div class="header__logo">
+						<a href="index.html">
+							<img src="img/logo.png" alt="logo">
+						</a>
+					</div>
+					<nav class="menu">
+						<ul class="menu__list">
+							<li class="menu__item menu__item1"><a href="#" class="menu__link">Vikings</a></li>
+							<li class="menu__item menu__item2"><a href="#" class="menu__link">Ancient Egypt</a></li>
+							<li class="menu__item menu__item3"><a href="#" class="menu__link">Celtics</a></li>
+							<li class="menu__item menu__item4"><a href="#" class="menu__link"><span>Sale</span></a></li>
+							<li class="menu__item menu__item_search" class="menu__link"><a href="#"> <input type="text" placeholder="Type your search" class="menu__item_input"><img src="img/search_img.png" alt="search"></a></li>
+						</ul>
+					</nav>
+					<div class="card" id="card">
+						<div class="card__body">
+							<div class="card__look">
+								<a href="#">
+									<img src="img/card_img.png" alt="card">
+								</a>
+							</div>
+							<div class="card__item">
+								<div class="card__quantity">
+									<span class="quantity"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main>
+				<section>
+					
+					<div class="container">
+						<div class="content">
+							<form action="#" class="form_search">
+								<input type="text" class="input_sch" placeholder="Search">
+								
+							</form>
+						</div>
+					</div>
+					<ul class="gallery">
+						<li class="gallery__item">
+							<div class="gallery__link">
+								<div class="gallery__icon"><img src="img/Rectangle 2.png" alt=""></div>
+								<div class="gallery__body">
+									<div class="preview__gallery">
+										<a href="cards/card1.html">
+										Handmade Stainless Steel Massive Wolf Chain with Odin’s Protection Charm - 50cm / 20in
+										</a>
+									</div>
+									<div class="sale__gallery">
+										$19.95    <span>$29.95</span>
+									</div>
+									<div class="btm__gallery">
+										<input type="button" value="-" class="btm_primary_regular minus" onclick="m()">
+										<input type="text" value="" class="btm_primary_regular__value">
+										<input type="button" value="+" class="btm_primary_regular plus" onclick="p()">
+									</div>
+								</div>
+							</div>
+						</li><li class="gallery__item">
+							<div class="gallery__link">
+								<div class="gallery__icon"><img src="img/Rectangle 2.3.png" alt=""></div>
+								<div class="gallery__body">
+									<div class="preview__gallery">
+										<a href="#">
+										Handmade Massive Stainless Steel Wolf Head Necklace with Nordic Wolf Pendant - 50cm / 20in
+										</a>
+									</div>
+									<div class="sale__gallery">
+										$19.95    <span>$29.95</span>
+									</div>
+									<div class="btm__gallery">
+										<input type="button" value="-" class="btm_primary_regular minus" onclick="m()">
+										<input type="text" value="" class="btm_primary_regular__value">
+										<input type="button" value="+" class="btm_primary_regular plus" onclick="p()">
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="gallery__item">
+							<div class="gallery__link">
+								<div class="gallery__icon"><img src="img/Rectangle 2.4.png" alt=""></div>
+								<div class="gallery__body">
+									<div class="preview__gallery">
+										<a href="#">
+										Kinf Chain Wolf Head Viking Bracelet - 19cm / 7.4in
+										</a>
+									</div>
+									<div class="sale__gallery">
+										$19.95    <span>$29.95</span>
+									</div>
+									<div class="btm__gallery">
+										<input type="button" value="-" class="btm_primary_regular minus" onclick="m()">
+										<input type="text" value="" class="btm_primary_regular__value">
+										<input type="button" value="+" class="btm_primary_regular plus" onclick="p()">
+									</div>
+								</div>
+							</div>
+						</li>
+						
+				</ul>		
+				</section>
+					<section class="card__popap">
+						<div class="card__popap_body">
+							<div class="card__popap_container">
+								<div class="card__popap_header">
+									<div class="card__popap_header__text">
+										Cart (<span class="quantity">2</span> items)
+									</div>
+									<div class="card__popap_header__close">
+										<span></span>
+									</div>
+								</div>
+								<div class="card__popap_content">
+							
+								</div>
+								<div class="card__popap_footer">
+									<div class="card__popap_footer__Subtotal">
+										<div class="card__popap_footer__text">Subtotal</div>
+										<div class="card__popap_footer__value">$<span class="total_value">144.95</span></div>
+									</div>
+									<div class="card__popap_footer__btm">
+										<input type="submit" value="View cart" class="footer__View_btm"><input type="submit" value="Proceed to checkout" class="footer__PrCh_btm">
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+			</main>
+		</div>
+		<script src="js/script.js"></script>
+		<script src="js/search.js"></script>
+	</body>
+	</html>
